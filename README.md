@@ -1,5 +1,5 @@
 # CBTBehaviors
-This branch adds randomized damage tied to overheating. Thhis helps to balance out overheating being an exploit from the players.
+**This branch adds randomized damage tied to overheating. Thhis helps to balance out overheating being an exploit from the players.**
 
 This mod for the [HBS BattleTech](http://battletechgame.com/) game changes several game behaviors to be closer to the Table Top behaviors. A quick summary of these behaviors are as follows:
 
@@ -30,12 +30,12 @@ The chances are tied to the original _ClassicBattleTech (CBT)_ heat scale. The o
 
 The way the game applies movement modifiers is that it adds up all the the modifiers, subtracts them from 1 to get what is essentially a percentage, and then multiplies that by your total movement. So that means, for example, on the first overheat turn, you will have 90% of your total movement available to use (assuming you don't have any other movement modifiers, like a missing leg).
 
-| Rounds Overheated | Shutdown Chance | Ammo Explosion Chance | ToHit Modifier | Move Modifier |
-| ----------------- | --------------- | --------------------- | -------------- | ------------- |
-| 1                 | 8.3%            | 0                     | +1             | 0.1           |
-| 2                 | 27.8%           | 8.3%                  | +2             | 0.2           |
-| 3                 | 58.3%           | 27.8%                 | +3             | 0.3           |
-| 4+                | 83.3%           | 58.3%                 | +4             | 0.4           |
+| Rounds Overheated | Shutdown Chance | Ammo Explosion Chance | ToHit Modifier | Move Modifier |% Heat Damage Taken
+| ----------------- | --------------- | --------------------- | -------------- | ------------- |-------------------
+| 1                 | 8.3%            | 0                     | +1             | 0.1           |27.8%
+| 2                 | 27.8%           | 8.3%                  | +2             | 0.2           |58.3%
+| 3                 | 58.3%           | 27.8%                 | +3             | 0.3           |83.3%
+| 4+                | 83.3%           | 58.3%                 | +4             | 0.4           |100%
 
 These chances are also displayed in the Overheat notification badge above the heat bar. Bringing your heat bar all the way to shutdown still shuts the mech down.
 
