@@ -1,4 +1,6 @@
 # CBTBehaviors
+This branch adds randomized damage tied to overheating. Thhis helps to balance out overheating being an exploit from the players.
+
 This mod for the [HBS BattleTech](http://battletechgame.com/) game changes several game behaviors to be closer to the Table Top behaviors. A quick summary of these behaviors are as follows:
 
 * Overheating no longer deals damage, but instead you have a chance to resist the shutdown and/or explode any ammo you have.
