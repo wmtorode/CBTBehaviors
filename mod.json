@@ -1,7 +1,7 @@
 {
     "Name": "CBTBehaviors",
     "Enabled": true,
-    "Version": "0.1.0",
+    "Version": "0.1.0.dZ",
     "Description": "",
     "Author": "IceRaptor",
     "Website": "https://github.com/IceRaptor/BTModSkeleton",
@@ -13,10 +13,12 @@
         "Trace" : false,
         "ShutdownPercentages": [0.083, 0.278, 0.583, 0.833],
         "AmmoExplosionPercentages": [0, 0.083, 0.278, 0.583],
+		"HeatDamagePercentages": [0.278, 0.583, 0.833, 1],
         "HeatToHitModifiers": [1, 2, 3, 4],
-        "UseGuts": false,
+        "UseGuts": true,
         "GutsDivisor": 40,
         "OverheatedMovePenalty": [0.1, 0.2, 0.3, 0.4],
+		"usePilotStabilityCheck" : false,
         "PilotStabilityCheck" : 0.30,
         "ToHitSelfJumped": 2
     }
